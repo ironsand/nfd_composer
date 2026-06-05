@@ -1,0 +1,11 @@
+[package]
+name = "nfd_composer"
+version = "0.1.0"
+edition = "2024"
+description = "NFD ファイル名を NFC に変換してリネームする CLI ツール"
+license = "MIT"
+repository = "https://github.com/ironsand/nfd_composer"
+
+[dependencies]
+unicode-normalization = "0.1"
+glob = "0.3"
