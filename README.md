@@ -10,7 +10,7 @@ cd nfd_composer
 cargo install --path .
 ```
 
-バイナリは `~/.cargo/bin/` にインストールされます（rustup 環境では自動的に PATH が通っています）。
+バイナリは `~/.cargo/bin/` や `%USERPROFILE%\scoop\persist\rustup\.cargo\bin` などにインストールされます（rustup 環境では自動的に PATH が通っています）。
 
 ## 使い方
 
